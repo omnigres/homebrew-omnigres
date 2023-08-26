@@ -8,7 +8,8 @@ class PgYregress < Formula
   version "0.1"
 
   depends_on "cmake" => :build
-  depends_on "postgresql@15" => [:build, :recommended]
+  depends_on "libpq" => :build
+  depends_on "postgresql@15" => :optional
 
   def install
     system "cmake", "-S", "pg_yregress", "-B", "build", *std_cmake_args
