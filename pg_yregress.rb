@@ -1,5 +1,5 @@
 class PgYregress < Formula
-  desc "regiression testing for Postgres"
+  desc "Regression testing for Postgres"
   homepage "https://docs.omnigres.org/pg_yregress/usage/"
   license "Apache-2.0"
   head "https://github.com/omnigres/omnigres.git"
