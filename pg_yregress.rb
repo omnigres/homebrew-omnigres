@@ -3,9 +3,9 @@ class PgYregress < Formula
   homepage "https://docs.omnigres.org/pg_yregress/usage/"
   license "Apache-2.0"
   head "https://github.com/omnigres/omnigres.git"
-  url "https://github.com/omnigres/omnigres/archive/refs/tags/pg_yregress/v0.1.0.tar.gz"
-  sha256 "31971def69a2c27de80fc908d2f0002e3eb62e8cea2f56b035ad9a4dbf59c650"
-  version "0.1.0"
+  url "https://github.com/omnigres/omnigres/archive/refs/tags/pg_yregress/v0.2.0.tar.gz"
+  sha256 "68e93e6d66ba32ade3f9d17593deea1723a35a5bcca96c320dfe3d7653637e40"
+  version "0.2.0"
 
   depends_on "cmake" => :build
   depends_on "libpq" => :build
